@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="32" fill="#DBEAFE"/>
+
+  <!-- Ticket Icon -->
+  <g transform="translate(32, 32)">
+    <!-- Ticket shape with dashed line in middle -->
+    <path d="M-12,-14 L-12,-6 C-10,-6 -8,-4 -8,-2 C-8,0 -10,2 -12,2 L-12,14 L12,14 L12,2 C10,2 8,0 8,-2 C8,-4 10,-6 12,-6 L12,-14 Z"
+          fill="none"
+          stroke="#2563EB"
+          stroke-width="2.5"
+          stroke-linejoin="round"/>
+
+    <!-- Dashed line in the middle -->
+    <line x1="0" y1="-14" x2="0" y2="-6"
+          stroke="#2563EB"
+          stroke-width="2.5"
+          stroke-dasharray="3,3"
+          stroke-linecap="round"/>
+    <line x1="0" y1="2" x2="0" y2="14"
+          stroke="#2563EB"
+          stroke-width="2.5"
+          stroke-dasharray="3,3"
+          stroke-linecap="round"/>
+  </g>
+</svg>
