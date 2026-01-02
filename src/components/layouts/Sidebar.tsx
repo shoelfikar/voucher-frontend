@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import clsx from 'clsx';
-import { Ticket, Upload, Palette, ChevronDown, List, Plus } from 'lucide-react';
+import { Ticket, Upload, ChevronDown, List, Plus } from 'lucide-react';
 
 interface SidebarProps {
   isOpen?: boolean;
@@ -43,11 +43,11 @@ export function Sidebar({ isOpen = true }: SidebarProps) {
         },
       ],
     },
-    {
-      name: 'Components',
-      path: '/components',
-      icon: <Palette className="w-5 h-5" />,
-    },
+    // {
+    //   name: 'Components',
+    //   path: '/components',
+    //   icon: <Palette className="w-5 h-5" />,
+    // },
   ];
 
   const toggleMenu = (menuName: string) => {
